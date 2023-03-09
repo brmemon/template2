@@ -76,6 +76,7 @@
 }
 
 button{
+    cursor: pointer;
     font-size: 18px!important;
     font-family: "Montserrat", sans-serif;
     color: white;
@@ -224,17 +225,18 @@ button:hover{
 }
 
 .last{
-    padding: 35px 16px;
+    padding: 32px 16px;
     text-align: center!important;  
     color: #757575;
     font-size: 15px;
     font-family: "Lato", sans-serif;
     margin: 15px 0px;
+    height: 250.5px;
 }
 
 .error_para{
     margin-bottom: 23px;
-    margin-top: 50px;
+    margin-top: 47px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -248,8 +250,8 @@ button:hover{
         display: none;
     }
     .second{
-        width: 100%;
-        padding: 10px;
+        width: 109%;
+        padding: 0px 16px;
     }   
     .second1{
         width: 100%;
@@ -266,5 +268,8 @@ button:hover{
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+    .main1{
+        line-height: 1.5;
     }
   }
