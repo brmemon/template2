@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -109,6 +111,7 @@ button:hover {
     font-weight: 400;
     /* margin-left: -16px; */
     margin-top: 0px;
+    margin-left: -16px;
 }
 
 .para {
@@ -140,8 +143,8 @@ button:hover {
     font-size: 200px;
     content: "\f13d";
     color: #f44336;
-    padding-top: 7px;
-    margin-top: -7px;
+    padding-top: 64px;
+    /* margin-top: px; */
     width: 20%;
 }
 
@@ -152,18 +155,18 @@ button:hover {
 }
 
 .main_content1 {
-    padding-left: 21px;
+    padding-left: 1px;
     display: flex;
     padding-top: 64px !important;
     padding-bottom: 64px !important;
 }
 
 .second1 {
-    width: 95%;
+    margin-right: 61px;
+    width: 90%;
     font-weight: 400;
-    /* margin-left: -16px; */
+    margin-left: 51px;
     margin-top: 0px;
-    padding-left: 130px;
 }
 
 .para1 {
@@ -191,14 +194,13 @@ button:hover {
 }
 
 .dark1 {
-    padding-left: 27px;
     text-align: center;
     font-size: 200px;
     content: "\f13d";
     color: #f44336;
-    /* padding-top: 7px;
-    margin-top: -7px; */
-    width: 20%;
+    margin-top: 64px;
+    width: 64%;
+    margin-left: 104px;
 }
 
 .small {
@@ -248,6 +250,13 @@ button:hover {
     body {
         height: 100vh;
         overflow-y: scroll;
+        font-weight: 400;
+    }
+
+    .max {
+        /* height: 136.9%; */
+        max-width: 980px;
+        margin: auto;
     }
 
     .main_content {
@@ -262,6 +271,10 @@ button:hover {
         display: block;
     }
 
+    .lorem_para {
+        width: 101%;
+    }
+
     .btn {
         display: none;
     }
@@ -270,31 +283,35 @@ button:hover {
         /* text-align: center; */
         width: 100%;
         /* padding: 0px 0px 0px 16px; */
+        margin-left: 0;
     }
 
     .second1 {
         /* text-align: center; */
         width: 100%;
         padding: 0px 0px;
-        /* margin-top: -10px; */
+        /* margin-top: 73px; */
     }
 
     .dark {
-        padding-left: 0px;
+        margin-bottom: 64px;
+        width: 95.5%;
+        /* padding-left: 0px;
         margin-left: 0px;
         text-align: center;
         display: flex;
-        justify-content: center;
-        width: 100%;
+        justify-content: center; */
     }
 
     .dark1 {
-        padding-left: 0px;
-        margin-left: 0px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+        width: 89%;
+        padding-bottom: 65px;
+        /* margin-top: 73px; */
+        /* padding-left: 0px; 
+        margin-left: -8px;
+        text-align: center; */
+        /* display: flex;
+        justify-content: center; */
         /* text-align: center;
         display: flex;
         justify-content: center;
@@ -306,6 +323,9 @@ button:hover {
         position: fixed;
         line-height: 1.5;
     }
+    .lorem_para1{
+        padding: 31px 0px;
+    }
 
     .para {
         /* margin: 0; */
@@ -313,38 +333,42 @@ button:hover {
         font-size: 15px;
         line-height: 1.5;
     }
-    .para1{
+
+    .para1 {   
+        margin: 16px 0px;
         min-width: 100%;
         font-size: 15px;
         line-height: 1.5;
+        margin-bottom: 25px;
     }
 
-    /* .small {
+    .small {
         margin-top: -10px;
-    } */
+    }
+    .last{
+        margin: 33px 0px;
+        padding: 15px 0px;
+    }
+
     /* .max{
         width: 390px;
         margin: auto;
-    } */
+    }
     .lorem_para1{
         width: 99%;
-    }
+    } */
 
 }
 
-
- /* @media only screen and (max-width: 500px) {
-
+/* 
+ @media only screen and (max-width: 500px) {
     .dark {
-
         min-width: 94.5%;
     }
-
     .dark1 {
         min-width: 90%;
     }
-
     .second1 {
         min-width: 102%;
     }
-}  */
+}   */
